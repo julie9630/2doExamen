@@ -28,8 +28,7 @@ function ejecuta () {
                 if (fec.length==0) {
                     document.f_mail.fec.style.background="red";
                     alert("Error, se debe de poner una fecha de nacimiento obligatoriamente");
-                } else {
-                    //aquí adentro ya va todas las funciones de texto jsjsjs 
+                } else { 
                     anio=fec.substr(2,2);
                     mes=fec.substr(5,2);
 	                dia=fec.substr(8,2);
