@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Segundo examen parcial</title>
+		<link href="efectos02.css" rel="stylesheet" type="text/css">
+		<script src="2do_examen.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<p class="titulo24">Obtener cuenta de correo de un empleado</p>
+		<table border="20%" width="80%">
+		<form name="f_mail">
+			<tr align="center">
+				<td><p>Indica el nombre de la persona</p></td>
+				<td><input name="nom" type="text" class="campo"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica el Ap. Paterno de la persona</p></td>
+				<td><input name="ap" type="text" class="campo"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica el Ap, Materno de la persona</p></td>
+				<td><input name="am" type="text" class="campo"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica la fecha de nacimiento de la persona</p></td>
+				<td><input name="fec" type="date" class="campo"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>La cuenta de correo resultante es:</p></td>
+				<td><input name="correo" type="text" class="campo" disabled="true" style="background: gray; width: 350px;">
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>La contraseña resultante es:</p></td>
+				<td><input name="contra" type="text" class="campo" disabled="true" style="background: gray;">
+				</td>
+			</tr>
+			<tr align="center">
+				<td><input name="b_ejecuta" type="button" class="boton" value="Ejecutar" onClick="ejecuta()">
+				</td>
+				<td><input name="b_reinicia" type="reset" class="boton" value="Reiniciar" style="background: red;">
+				</td>
+			</tr>
+		</form>
+		</table>
+	</center></body>
+</html>
